@@ -42,7 +42,7 @@ exec --no-startup-id nm-applet
 # set wallpaper
 exec --no-startup-id feh --bg-fill  ~/.wallpapers/samurai.jpg
 # polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+#exec_always --no-startup-id ~/.config/polybar/launch.sh
 # compton
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 # polkit
@@ -209,6 +209,14 @@ client.background       #ffffff
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command polybar
-#}
+bar {
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	position top
+	font pango:RobotoMono Nerd Font Regular 11
+	height 30
+       	colors {
+		statusline #ffffff
+		background #544f4f
+		focused_workspace #ffffff #282A3E #FFFFFF
+	}
+}
