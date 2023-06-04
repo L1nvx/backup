@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/l1nvx/.wallpapers/samurai-2.jpg' 

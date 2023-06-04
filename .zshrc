@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/bin:$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -102,6 +102,8 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/functions.sh
 alias server="ls -l && python3 -m http.server"
-alias mkt="mkdir nmap tmp enum repos"
+alias mkt="mkdir nmap tmp enum repos privesc"
 alias nc="ncat"
+alias sqlmap="sqlmap --random-agent --proxy http://127.0.0.1:8080"
+alias ffuf="ffuf -H \"User-Agent: Mozilla/5.0 (Linux; Android 5.1; iris 600 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36\" -c -v -mc all"
 work

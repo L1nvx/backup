@@ -1,0 +1,17 @@
+polybar|notice:  Parsing config file: /home/l1nvx/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 24378)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_04_00.6.HiFi__hw_Generic_1__sink
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'wlan' of type 'internal/network'
+polybar|notice:  module/wlan: Discovered wireless interface wlan0
+polybar|error: Disabling module "eth" (reason: Missing section "module/eth")
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 9 modules
+polybar|notice:  Loaded font "monospace" (name=Noto Sans Mono, offset=2, file=/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf)
+polybar|notice:  Termination signal received, shutting down...
